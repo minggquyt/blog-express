@@ -1,0 +1,24 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "dev-inspect": "nodemon --inspect src/index.js",
+    "watch-css": "sass --watch src/resources/scss:src/public/css --style=compressed",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.3"
+  },
+  "devDependencies": {
+    "morgan": "^1.11.0",
+    "nodemon": "^3.1.14",
+    "sass": "^1.101.0"
+  }
+}
